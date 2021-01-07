@@ -145,10 +145,10 @@ header img {
 .instructions {
   max-width: 650px;
   margin: 0 auto;
-  padding: 25px 15px 0;
+  padding: 10px;
 }
 .instructions p {
-  margin: 15px auto;
+  margin: 15px auto 0;
 }
 
 .steps-container {

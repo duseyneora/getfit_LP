@@ -1,0 +1,16 @@
+.guidelines {
+    background: $fit-pink1;
+    padding: 25px 15px;
+    text-align: center;
+        & p {
+            margin: 10px auto;
+        }
+        & a {
+            color: $copy1;
+            text-decoration: underline;
+            transition: .3s;
+                &:hover {
+                    color: $fit-purple;
+                }
+        }
+}

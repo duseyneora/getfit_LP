@@ -1,0 +1,41 @@
+footer {
+    background: $fit-green;
+    padding: 25px;
+        & .container {
+            max-width: 650px;
+            margin: 0 auto;
+            @include flex(row, wrap, space-between, flex-start);
+        }
+
+        
+        & .linkgroup {
+            @include flex(row, nowrap, space-between, center);
+            margin: 10px auto;
+            max-width: 320px;
+                & .link-group {
+                    @include flex(column,nowrap, flex-start, flex-start);
+                    min-width: 120px;
+                        a {
+                            color: rgba($copy2, 0.6);
+                            transition: .3s;
+                                &:hover {
+                                    color: $copy2;
+                                }
+                        }
+                }
+        }
+        .social-group {
+            margin: 10px auto;
+            text-align: right;
+            & h3 {
+                font-size: 1.5em;
+            }
+            & .icon-group {
+                margin: 10px auto;
+            }
+            & .legal {
+                font-size: .8em;
+            }
+        }
+        
+}

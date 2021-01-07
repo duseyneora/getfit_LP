@@ -1,0 +1,33 @@
+.prizes {
+    background: white;
+    @include flex(row, wrap, center, flex-start);
+    min-height: 350px;
+    padding: 25px 15px;
+        & .card {
+            width: 100%;
+            max-width: 320px;
+            @include flex(column, nowrap, center, center);
+            font-size: 1.1em;
+            padding: 15px;
+            opacity: 0;
+                & img {
+                    margin-bottom: 10px;
+                    margin-bottom: auto;
+                    max-height: 200px;
+                    transition: .3s;    
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                }
+        }
+}
+
+.card1 {
+    animation: slideUp 1s .2s ease forwards;
+}
+.card2 {
+    animation: slideUp 1s .5s ease forwards;
+}
+.card3 {
+    animation: slideUp 1s .9s ease forwards;
+}

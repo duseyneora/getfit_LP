@@ -1,0 +1,32 @@
+.local-img {
+    // display: none!important;
+}
+
+img {
+    display: inline;
+    max-width: 100%;
+
+}
+
+
+.page-container {
+    width: 100%;
+    max-width: $screen-width;
+    display: block;
+    margin: 0 auto;
+        & .desktop {
+            display: none;
+        }
+}
+
+@media (min-width: 768px) {
+    .page-container {
+        & .desktop {
+            display: block;
+        }
+        & .mobile {
+            display: none;
+        }
+    }
+}
+

@@ -17,28 +17,148 @@
 </head>
 <body>
     
-    <!-- page wrapper -->
-    <div class="getfit-wrapper">
+    <!-- nav -->
+    <header>
+        <img class="local-img" src="./assets/header/header.jpg" alt="Neora GetFit Challenge Logo">
+    </header>
+    <!-- END nav -->
+    <!-- wrapper -->
+    <main class="getfit-wrapper page-container">
         <!-- hero -->
+        <div class="hero">
+            <img src="./assets/banners/mobile.jpg" alt="Neora GetFit hero image" class="local-img mobile">
+            <img src="./assets/banners/desktop.jpg" alt="Neora GetFit hero image" class="local-img desktop">
+        </div>
         <!-- END hero -->
 
         <!-- prizes -->
+        <section class="prizes">
+            <!-- card 1 -->
+            <div class="card card1">
+                <img src="./assets/content/bike.png" alt="Peloton Bike prize" class="local-img">
+                <p class="bold fit-purple">First Place</p>
+                <p class="bold">Peloton® Bike</p>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card card2">
+                <img src="./assets/content/card.png" alt="Gift Card to Home Chef prize" class="local-img">
+                <p class="bold fit-purple">Second Place</p>
+                <p class="bold">$500 Home Chef Gift Card</p>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card card3">
+                <img src="./assets/content/watch.png" alt="Fitbit® Versa 2™ Smartwatch prize" class="local-img">
+                <p class="bold fit-purple">Third Place</p>
+                <p class="bold">Fitbit® Versa 2™ Smartwatch</p>
+            </div>
+        </section>
         <!-- END prizes -->
 
         <!-- steps -->
+        <section class="steps">
+            <div class="instructions">
+                <p>Find your Fit and get rewarded for it, too! <span class="bold">Accept the GetFit Challenge and discover a slimmer, healthier you,</span> then share your NeoraFit story and ‘before’ and ‘after’ photos for a chance to win fabulous fitness prizes! </p>
+                <p class="bold">Contest Period: January 8, 2021 through April 30, 20201 at 11:59 p.m. CT </p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <h3 class="bold fit-purple">Step 1</h3>
+                    <p class="bold">Sign Up For The GetFit Challenge</p>
+                    <p>Commit to participating in the challenge and to a slimmer, healthier you! </p>
+                    <a target="_blank" href="https://airtable.com/shrqlkX28IjWQcCH3" class="link-btn bold fp">Sign Me Up</a>
+                </div>
+                <div class="step">
+                    <h3 class="bold fit-purple">Step 2</h3>
+                    <p class="bold">Upload Your Story And Before/After Photos</p>
+                    <p>It’s show and tell time. Let us know how you did! </p>
+                    <a target="_blank" href="https://airtable.com/shrDeTmVtZ3BJHH0V" class="link-btn bold fp">Submit My Results</a>
+                </div>
+            </div>
+        </section>
         <!-- END steps -->
 
         <!-- guidelines -->
+        <section class="guidelines">
+            <div class="cotnainer">
+                <h3 class="bold2 small-header fit-purple">Entry Guidelines</h3>
+                <p>Learn how to take your measurements, before/after photos, etc. to maximize your chances of winning!</p>
+                <a class="bold" href="#">See GetFit Challenge flyer</a>
+            </div>
+            
+        </section>
         <!-- END guidelines -->
 
         <!-- transformations -->
-        <!-- END transformations -->
-    </div>
-    <!-- END page wrapper -->
-    <!-- footer -->
-    <div class="getfit-footer">
+        <section class="transformations">
+            <h3 class="bold2 fit-purple small-header">Real Results</h3>
 
-    </div>
+            <div class="slideshow-container"> 
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img class="local-img" src="./assets/transformations/t1.png" alt="">
+                    <img class="local-img" src="./assets/transformations/t2.png" alt="">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="local-img" src="./assets/transformations/t3.png" alt="">
+                    <img class="local-img" src="./assets/transformations/t4.png" alt="">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="local-img" src="./assets/transformations/t5.png" alt="">
+                    <img class="local-img" src="./assets/transformations/t6.png" alt="">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="local-img" src="./assets/transformations/t7.png" alt="">
+                    <img class="local-img" src="./assets/transformations/t8.png" alt="">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="local-img" src="./assets/transformations/t9.png" alt="">
+                    <img class="local-img" src="./assets/transformations/t10.png" alt="">
+                </div>
+                <!-- Slideshow End --> 
+                <!-- Next and previous buttons --> 
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+        <!-- END transformations -->
+    </main>
+    <!-- END wrapper -->
+    <!-- footer -->
+    <footer class="getfit-footer">
+        <div class="container">
+            <!-- links -->
+            <div class="linkgroup">
+                <div class="link-group">
+                    <a href="">Contest Rules</a>
+                    <a href="">Contact Us</a>
+                    <a href="">About Us</a>
+                    <a href="">Neora.com</a>
+                </div>
+                <div class="link-group">
+                    <a href="">Help/FAQ</a>
+                    <a href="">Terms & Conditions</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Legal Info</a>
+                </div>
+            </div>
+            
+            <!-- social -->
+            <div class="social-group">
+                <h3 class="bold">#GetFitChallenge</h3>
+                <div class="icon-group">
+                    <p>I need these icon images</p>
+                </div>
+                <p class="legal">&copy; 2020 Neora&trade;,LLC</p>
+            </div>
+        </div>
+    </footer>
     <!-- END footer -->
+
+    <script src="./js/app.js"></script>
 </body>
 </html>

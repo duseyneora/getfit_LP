@@ -1,0 +1,11 @@
+header {
+    padding: 15px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    max-height: 80px;
+    border-bottom: 1px solid rgb(221, 226, 228);
+        & img {
+            max-height: 50px;
+        }
+}

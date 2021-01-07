@@ -1,0 +1,22 @@
+.bold {
+    font-weight: 700;
+}
+.bold2 {
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+
+.fit-purple {
+    color: $fit-purple;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: $font;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2em;
+}

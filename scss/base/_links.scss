@@ -1,0 +1,16 @@
+.link-btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+    width: 180px;
+    margin: 10px auto;
+        &.fp {
+            background: $fit-purple;
+            color: white;
+            transition: .3s;    
+                &:hover {
+                    background: $fit-pink2;
+                    color: $fit-purple;
+                }
+        }
+}

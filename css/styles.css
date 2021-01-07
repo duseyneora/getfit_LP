@@ -147,6 +147,9 @@ header img {
   margin: 0 auto;
   padding: 25px 15px 0;
 }
+.instructions p {
+  margin: 15px auto;
+}
 
 .steps-container {
   background: white;

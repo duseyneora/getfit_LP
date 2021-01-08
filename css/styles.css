@@ -42,6 +42,10 @@ body {
   color: #616b79;
 }
 
+.icon-footer-youtube, .icon-footer-facebook, .icon-footer-twitter, .icon-footer-linkedin, .icon-footer-instagram {
+  color: gray;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -406,7 +410,7 @@ header img {
   display: none;
 }
 
-.sitecore-img {
+.local-img {
   display: none !important;
 }
 

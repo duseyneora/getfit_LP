@@ -65,7 +65,7 @@ h3 {
 }
 
 .link-btn {
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 10px 20px;
   display: block;
   width: 180px;
@@ -377,6 +377,10 @@ footer .social-group .icon-group {
 }
 footer .social-group .legal {
   font-size: 0.8em;
+}
+
+.sitecore-img {
+  display: none !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

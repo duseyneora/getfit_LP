@@ -165,7 +165,7 @@ header img {
 .steps-container .step {
   width: 100%;
   max-width: 325px;
-  padding: 5px 10px;
+  padding: 20px 10px;
   transition: 0.3s;
 }
 .steps-container .step h3 {

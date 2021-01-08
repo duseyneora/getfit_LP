@@ -42,10 +42,6 @@ body {
   color: #616b79;
 }
 
-.icon-footer-youtube, .icon-footer-facebook, .icon-footer-twitter, .icon-footer-linkedin, .icon-footer-instagram {
-  color: gray;
-}
-
 .bold {
   font-weight: 700;
 }
@@ -381,6 +377,11 @@ header img {
 }
 .getfit-footer .social-group .legal {
   font-size: 0.8em;
+}
+
+.icon-footer-youtube, .icon-footer-facebook, .icon-footer-twitter, .icon-footer-linkedin, .icon-footer-instagram {
+  color: gray;
+  font-size: 1.2em;
 }
 
 /* overrides */

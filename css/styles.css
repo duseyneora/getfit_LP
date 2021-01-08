@@ -362,6 +362,9 @@ header img {
   align-items: flex-start;
   min-width: 120px;
 }
+.getfit-footer .linkgroup .link-group:first-child {
+  display: none;
+}
 .getfit-footer .linkgroup .link-group a {
   color: rgba(135, 145, 159, 0.6);
   transition: 0.3s;
